@@ -1,0 +1,120 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="aegeanapp.Ebdomada1_Bradi"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#FF295F1D">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.RowSpan="2">
+            <ScrollViewer HorizontalAlignment="Left" Height="800" VerticalAlignment="Top" Width="480">
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="1200" Width="480" Foreground="White">
+            		<Run FontWeight="Bold" Text="Δευτέρα"/>
+            		<LineBreak/>
+            		<Run Text="1ο.Χορτόσουπα βελουτέ"/>
+            		<LineBreak/>
+            		<Run Text="2ο.Σπανακόρυζο"/>
+            		<LineBreak/>
+            		<Run Text="3ο.Σαλάτα εποχής"/>
+            		<LineBreak/>
+            		<Run Text="4ο.Φρούτο εποχής - Κέϊκ"/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+                    <Run FontWeight="Bold" Text="Τρίτη"/>
+            		<LineBreak/>
+            		<Run Text="1ο.Μινεστρόνε"/>
+            		<LineBreak/>
+            		<Run Text="2ο.Φιλέτο Γαλέου Κρασάτο"/>
+            		<LineBreak/>
+            		<Run Text="3ο.Σαλάτα εποχής"/>
+            		<LineBreak/>
+            		<Run Text="4ο.Φρούτο εποχής - Ρυζόγαλο"/>
+            		<LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+            		<Run FontWeight="Bold" Text="Τετάρτη"/>
+            		<LineBreak/>
+            		<Run Text="1ο.Κοτόσουπα"/>
+            		<LineBreak/>
+            		<Run Text="2ο.Σπαγγέτι Αμαρτισάνα"/>
+            		<LineBreak/>
+            		<Run Text="3ο.Σαλάτα εποχής"/>
+            		<LineBreak/>
+            		<Run Text="4ο.Φρούτο εποχής - Κομπόστα"/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run FontWeight="Bold" Text="Πέμπτη"/>
+            		<LineBreak/>
+            		<Run Text="1ο.Τυρόπιτα με ζαμπόν"/>
+            		<LineBreak/>
+            		<Run Text="2ο.Πιτσα σπέσιαλ"/>
+            		<LineBreak/>
+            		<Run Text="3ο.Σαλάτα εποχής"/>
+            		<LineBreak/>
+            		<Run Text="4ο.Φρούτο εποχής - Μους βανίλια"/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run FontWeight="Bold" Text="Παρασκευή"/>
+            		<LineBreak/>
+            		<Run Text="1ο.Φιογκάκι"/>
+            		<LineBreak/>
+            		<Run Text="2ο.Αρακάς μαγειρευτός"/>
+            		<LineBreak/>
+            		<Run Text="3ο.Σαλάτα εποχής"/>
+            		<LineBreak/>
+            		<Run Text="4ο.Φρούτο εποχής - Μους βανίλια"/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run FontWeight="Bold" Text="Σάββατο"/>
+            		<LineBreak/>
+            		<Run Text="1ο.Πίτσα με λαχανικά"/>
+            		<LineBreak/>
+            		<Run Text="2ο.Καλαμαράκια κρασάτα"/>
+            		<LineBreak/>
+            		<Run Text="3ο.Σαλάτα εποχής"/>
+            		<LineBreak/>
+            		<Run Text="4ο.Φρούτο εποχής - Ζελέ"/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run FontWeight="Bold" Text="Κυριακή"/>
+            		<LineBreak/>
+            		<Run Text="1ο.Σούπα αλενουά"/>
+            		<LineBreak/>
+            		<Run Text="2ο.Μπιγτέκι σχάρας"/>
+            		<LineBreak/>
+            		<Run Text="3ο.Σαλάτα εποχής"/>
+            		<LineBreak/>
+            		<Run Text="4ο.Φρούτο εποχής - Γλυκό φόρμας"/>
+                </TextBlock>
+            </ScrollViewer>
+
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
