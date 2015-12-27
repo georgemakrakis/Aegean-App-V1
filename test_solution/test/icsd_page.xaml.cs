@@ -38,19 +38,16 @@ namespace aegeanapp
         {
             ShowInBrowser("https://www.google.com");
         }
-        private void Main_page_mpes(object sender, RoutedEventArgs e)
-        {
-            ShowInBrowser("https://www.icsd.aegean.gr/");
-        }
+
 
         private void eClass(object sender, RoutedEventArgs e)
         {
-            ShowInBrowser("https://eclass.icsd.aegean.gr/"); 
+            ShowInBrowser("https://eclass.icsd.aegean.gr/");
         }
 
         private void mail(object sender, RoutedEventArgs e)
         {
-            ShowInBrowser("https://webmail.aegean.gr/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.aegean.gr%2fowa"); 
+            ShowInBrowser("https://webmail.aegean.gr/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.aegean.gr%2fowa");
         }
 
         private void Icarus(object sender, RoutedEventArgs e)
@@ -78,9 +75,14 @@ namespace aegeanapp
             LaunchPDF();
         }
 
-        
-        
-
-
+        private void TextBlock_Tap(object sender, System.Windows.Input.GestureEventArgs e) // main page mpes
+        {
+            ShowInBrowser("https://www.icsd.aegean.gr/");
+        }
     }
+
+
+
+
+
 }

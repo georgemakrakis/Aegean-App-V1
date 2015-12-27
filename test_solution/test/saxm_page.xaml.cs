@@ -35,11 +35,6 @@ namespace aegeanapp
             ShowInBrowser("https://eclass.aegean.gr/");
         }
 
-        private void Main_page_saxm(object sender, RoutedEventArgs e)
-        {
-            ShowInBrowser("http://www.actuar.aegean.gr/");
-        }
-
         private void search(object sender, RoutedEventArgs e)
         {
             ShowInBrowser("https://www.google.com");
@@ -78,6 +73,11 @@ namespace aegeanapp
         private void schedule_icsd_Click(object sender, RoutedEventArgs e)
         {
             LaunchPDF();
+        }
+
+        private void TextBlock_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            ShowInBrowser("http://www.actuar.aegean.gr/");
         }
 
        

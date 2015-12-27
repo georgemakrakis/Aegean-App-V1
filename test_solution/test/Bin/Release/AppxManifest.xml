@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="51046AegeanApp.AegeanApp" Publisher="CN=0C2B326D-6C13-48C6-A0F9-A3FA7DEFE839" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <Identity Name="51046AegeanApp.AegeanApp" Publisher="CN=0C2B326D-6C13-48C6-A0F9-A3FA7DEFE839" Version="1.2.0.0" ProcessorArchitecture="neutral" />
   <mp:PhoneIdentity PhoneProductId="1cd0f0c1-87c1-4804-8a63-42331a2d4574" PhonePublisherId="743aabf1-e0e6-4f61-8155-44fccec89192" />
   <Properties>
     <DisplayName>Aegean App</DisplayName>
@@ -49,10 +49,10 @@
   </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value="WindowsPhone,Version=v8.1" />
-    <build:Item Name="VisualStudio" Version="12.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Professional 2013" />
+    <build:Item Name="VisualStudio" Version="14.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.10240.16384 (th1.150709-1700)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.40629.0" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.24720.0" />
     <build:Item Name="ProjectGUID" Value="{1CD0F0C1-87C1-4804-8A63-42331A2D4574}" />
     <build:Item Name="MakePri.exe" Version="6.3.9600.17336 (winblue.150226-1500)" />
   </build:Metadata>

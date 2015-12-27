@@ -45,10 +45,10 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Background="Black" Grid.RowSpan="2" Opacity="0.3"></StackPanel>
 
-        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Foreground="White" Text="Aegean University of Samos" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0" FontWeight="Bold"/>
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+            <TextBlock Foreground="White" Text="Aegean University of Samos" Style="{StaticResource PhoneTextNormalStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontWeight="Bold"/>
 
-            <TextBlock Margin="0,10,0,0" Foreground="White" Style="{StaticResource PhoneTextLargeStyle}"  RenderTransformOrigin="0.5,0.5"    FontWeight="Bold">
+            <TextBlock  Foreground="White" Style="{StaticResource PhoneTextLargeStyle}"  RenderTransformOrigin="0.5,0.5"    FontWeight="Bold">
             	<Run Foreground="White" Text="Καλώς ήλθατε"/>
 
             </TextBlock>
@@ -59,9 +59,9 @@
 
         <Grid x:Name="ContentPanel" Grid.Row="1">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="77*"/>
+                <ColumnDefinition Width="89*"/>
+                <ColumnDefinition Width="74*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="160*"/>
@@ -70,13 +70,16 @@
             <Grid.Background>
                 <ImageBrush Stretch="Fill"/>
             </Grid.Background>
-            <Button  Foreground="White" x:Name="icsd" Content="Μηχανικών Πληροφοριακών&#xD;&#xA;Και Επικοινωνιακών Συστημάτων" HorizontalAlignment="Left" Margin="0,85,0,0" VerticalAlignment="Top" Width="456" Click="Button_Click_to_ICSD" Background="{x:Null}"  BorderBrush="White" FontWeight="Bold" Grid.Row="1" Grid.ColumnSpan="3" Height="102"/>
-            <Button Foreground="White" x:Name="ΣΑΧΜ" Content="Στατιστικής Και Αναλογιστικών - &#xD;&#xA;Χρηματοοικονομικών Μαθηματικών" HorizontalAlignment="Left" Margin="0,182,0,0" VerticalAlignment="Top" Width="456" Click="saxm_click" BorderBrush="White"  FontWeight="Bold" Grid.Row="1" Grid.ColumnSpan="3" Height="102"/>
-            <Button Foreground="White" Content="Μαθηματικών" HorizontalAlignment="Left" Margin="0,270,0,0" VerticalAlignment="Top" Width="456" Click="math_Click" BorderBrush="White"  FontWeight="Bold" Grid.Row="1" Grid.ColumnSpan="3" Height="72"/>
             <Image Source="/Logo-Aegean.png" Stretch="Fill" Tap="Logo_Tap" Grid.Column="1"/>
-            <Button Foreground="White" x:Name="b_food1" Content="Πρόγραμμα Σίτισης" HorizontalAlignment="Left" Margin="0,328,0,0" VerticalAlignment="Top" Width="456" BorderBrush="White"  FontWeight="Bold" Click="b_food1_click" Grid.Row="1" Grid.ColumnSpan="3" />
-            <Button Foreground="White" Content="Map" HorizontalAlignment="Left"  Margin="10,0,0,0" VerticalAlignment="Top" Width="96" Height="93" BorderBrush="White"  Style="{StaticResource RoundButton}" FontWeight="Bold" Click="Button_Click_1" Grid.Row="1"  />
 
+            <StackPanel Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="441" Margin="12,0" Grid.RowSpan="2" Width="456">
+                <Button Foreground="White" Content="Map" Width="96" Height="93" BorderBrush="White"  Style="{StaticResource RoundButton}" FontWeight="Bold" Click="Button_Click_1" HorizontalAlignment="Left"   />
+                <Button Foreground="White" x:Name="icsd" Content="Μηχανικών Πληροφοριακών&#xD;&#xA;Και Επικοινωνιακών Συστημάτων"  Width="456" Click="Button_Click_to_ICSD" Background="{x:Null}"  BorderBrush="White" FontWeight="Bold"  Height="102" HorizontalAlignment="Stretch"/>
+                <Button Foreground="White" x:Name="ΣΑΧΜ" Content="Στατιστικής Και Αναλογιστικών - &#xD;&#xA;Χρηματοοικονομικών Μαθηματικών"  Width="456" Click="saxm_click" BorderBrush="White"  FontWeight="Bold"  Height="102" HorizontalAlignment="Stretch"/>
+                <Button Foreground="White" Content="Μαθηματικών"   Width="456" Click="math_Click" BorderBrush="White"  FontWeight="Bold"  Height="72" HorizontalAlignment="Stretch"/>
+                <Button Foreground="White" x:Name="b_food1" Content="Πρόγραμμα Σίτισης"   Width="456" BorderBrush="White"  FontWeight="Bold" Click="b_food1_click"  Height="72" HorizontalAlignment="Stretch" />
+
+            </StackPanel>
         </Grid>
 
         <!--Uncomment to see an alignment grid to help ensure your controls are

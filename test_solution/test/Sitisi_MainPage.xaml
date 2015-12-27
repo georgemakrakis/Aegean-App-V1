@@ -47,7 +47,9 @@
             <toolkit:ListPicker x:Name="Listpickername2" Margin="240,129,10,172" ExpansionMode="ExpansionAllowed" BorderBrush="Black" Foreground="Black">
 
             </toolkit:ListPicker>
-            <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.577,0.147" Click="Button_Click" Foreground="Black" BorderBrush="Black" FontWeight="Bold" Margin="-14,0,0,0"/>
+            <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.577,0.147" Click="Button_Click" Foreground="Black" BorderBrush="Black" FontWeight="Bold" />
+            <TextBlock x:Name="weekTbx" HorizontalAlignment="right"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontWeight="Black" Foreground="#FF040000"/>
+            <TextBlock Grid.Row="1" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Εβομάδα: " VerticalAlignment="Top" FontWeight="Black" Foreground="Black"/>
 
         </Grid>
     </Grid>

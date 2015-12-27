@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="51046AegeanApp.AegeanApp" Publisher="CN=0C2B326D-6C13-48C6-A0F9-A3FA7DEFE839" Version="1.0.0.0" />
+  <Identity Name="51046AegeanApp.AegeanApp" Publisher="CN=0C2B326D-6C13-48C6-A0F9-A3FA7DEFE839" Version="1.2.0.0" />
   <mp:PhoneIdentity PhoneProductId="1cd0f0c1-87c1-4804-8a63-42331a2d4574" PhonePublisherId="743aabf1-e0e6-4f61-8155-44fccec89192" />
   <Properties>
     <DisplayName>Aegean App</DisplayName>

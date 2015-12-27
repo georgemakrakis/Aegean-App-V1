@@ -20,7 +20,7 @@
     </SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
-    <XapFilename>aegeanapp_Release_AnyCPU.xap</XapFilename>
+    <XapFilename>aegeanapp1.2_Release_AnyCPU.xap</XapFilename>
     <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
     <SilverlightAppEntry>aegeanapp.App</SilverlightAppEntry>
     <ValidateXaml>true</ValidateXaml>

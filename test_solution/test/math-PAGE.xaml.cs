@@ -38,12 +38,7 @@ namespace aegeanapp
         {
             ShowInBrowser("https://www.google.com");
         }
-
-        private void Main_page_math(object sender, RoutedEventArgs e)
-        {
-            ShowInBrowser("https://www.math.aegean.gr/in/index.htm");
-        }
-
+    
         private void sef(object sender, RoutedEventArgs e)
         {
             ShowInBrowser("http://myria.math.aegean.gr/sef/");
@@ -77,6 +72,11 @@ namespace aegeanapp
         private void schedule_icsd_Click(object sender, RoutedEventArgs e)
         {
             LaunchPDF();
+        }
+
+        private void TextBlock_Tap(object sender, System.Windows.Input.GestureEventArgs e)/// main page math
+        {
+            ShowInBrowser("https://www.math.aegean.gr/in/index.htm");
         }
     
     }

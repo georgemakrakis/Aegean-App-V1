@@ -11,19 +11,21 @@ using Microsoft.Phone.Shell;
 using Microsoft.Phone.Maps.Controls;
 using System.Device.Location; // Provides the GeoCoordinate class.
 using Windows.Devices.Geolocation;//Provides the Geocoordinate class.
-
+using Windows.UI.Popups;
 using Windows.Storage.Streams;
 
 using System.Windows.Media;
 using System.Windows.Shapes;
+
 namespace aegeanapp
 {
     public partial class MapsPage : PhoneApplicationPage
     {
 
-
+        
         private async void ShowMyLocationOnTheMap()
         {
+            
             // Get my current location.
             Geolocator myGeolocator = new Geolocator();
             Geoposition myGeoposition = await myGeolocator.GetGeopositionAsync();
@@ -60,10 +62,6 @@ namespace aegeanapp
         }
         private void AddMapIcon(Map map, GeoCoordinate geoPosition)
         {
-
-
-
-
             // Create a small circle to mark the current location.
             Ellipse myCircle = new Ellipse();
             myCircle.Fill = new SolidColorBrush(Colors.Blue);
@@ -85,8 +83,8 @@ namespace aegeanapp
 
             // Add the MapLayer to the Map.
             maploc.Layers.Add(myLocationLayer);
-           
-            
+
+
         }
         public MapsPage()
         {
@@ -106,17 +104,19 @@ namespace aegeanapp
             Listpicker.Items.Add("Κτήριο Παπανικολάου");
             Listpicker.Items.Add("Κτήριο Ψαθά");
             ShowMyLocationOnTheMap();
-            
+
         }
-        
+
         private void Locate_Btn_Click_1(object sender, RoutedEventArgs e)
         {
+            maploc.Layers.Clear();//clears map from previous pins
             ShowMyLocationOnTheMap();
+            okBtn_Click();
         }
 
- 
 
-        private void okBtn_Click(object sender, RoutedEventArgs e)
+
+        private void okBtn_Click()
         {
             maploc.Layers.Clear();//clears map from previous pins
             var choice2 = (string)Listpicker.SelectedItem; //Getting value from the ListPicker
@@ -133,7 +133,7 @@ namespace aegeanapp
             {
                 AddMapIcon(maploc, new GeoCoordinate(37.792066, 26.703158));
             }
-           else if (choice2.Equals("Εργαστήριο Πολυμέσων"))
+            else if (choice2.Equals("Εργαστήριο Πολυμέσων"))
             {
                 AddMapIcon(maploc, new GeoCoordinate(37.795572, 26.707423));
             }
@@ -147,13 +147,13 @@ namespace aegeanapp
             }
             else if (choice2.Equals("Γραμματεία Τμήματος Στατιστικής"))
             {
-                AddMapIcon(maploc, new GeoCoordinate(37.794979,26.707900));
+                AddMapIcon(maploc, new GeoCoordinate(37.794979, 26.707900));
             }
             else if (choice2.Equals("Κτίριο Προβατάρη"))
             {
                 AddMapIcon(maploc, new GeoCoordinate(37.794423, 26.684276));
             }
-            else if(choice2.Equals("Αίθουσα Δήμου"))
+            else if (choice2.Equals("Αίθουσα Δήμου"))
             {
                 AddMapIcon(maploc, new GeoCoordinate(37.791244, 26.704945));
             }
@@ -177,10 +177,10 @@ namespace aegeanapp
 
         private void Listpicker_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            okBtn_Click(null, null);
+            okBtn_Click();
         }
-        }
-       
-
-      
     }
+
+
+
+}

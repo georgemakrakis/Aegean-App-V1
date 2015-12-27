@@ -9,7 +9,8 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Microsoft.Phone.Tasks;
 using aegeanapp.Resources;
-
+using System.Device.Location; // Provides the GeoCoordinate class.
+using Windows.Devices.Geolocation;//Provides the Geocoordinate class.
 namespace aegeanapp
 {
     public partial class MainPage : PhoneApplicationPage
@@ -21,6 +22,34 @@ namespace aegeanapp
 
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
+        }
+        public bool checkLocationSetting()
+        {
+            var GeoLocator1 = new Geolocator();
+
+            if (GeoLocator1.LocationStatus == PositionStatus.Disabled)
+            {
+                // Location Service is turned OFF
+                // Provide a visual message asking user to turn it ON
+                MessageBoxResult result = MessageBox.Show("Η χρήση της τοποθεσίας σας δεν είναι ενεργή", "Error", MessageBoxButton.OKCancel);
+                if (result == MessageBoxResult.OK)
+                {
+                    return false;
+                    //NavigationService.GoBack();
+                }
+                //This block of code is used only for the bool cases
+                else
+                {
+                    return false;
+                    //NavigationService.GoBack();
+                }
+              
+                
+            }
+            else
+            {
+                return true;// Location Service is already enabled. Proceed with your app functionality.
+            }
         }
         private void ShowInBrowser(string url)
         {
@@ -53,7 +82,15 @@ namespace aegeanapp
         }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/MapsPage.xaml", UriKind.Relative));
+            if(checkLocationSetting()==true)
+            {
+                NavigationService.Navigate(new Uri("/MapsPage.xaml", UriKind.Relative));
+            }
+            else
+            {
+                return;
+            }
+           
         }
 
         private void ApplicationBarIconButton_Click(object sender, EventArgs e)

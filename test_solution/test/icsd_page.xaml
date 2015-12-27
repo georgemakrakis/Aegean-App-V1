@@ -25,23 +25,25 @@
         <StackPanel Background="Black" Grid.RowSpan="2" Opacity="0.3"></StackPanel>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+        <StackPanel Name="stackpanel1" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Top">
             <TextBlock Text="Aegean University at Samos" Style="{StaticResource PhoneTextNormalStyle}" Foreground="White" FontWeight="Bold"/>
-            <TextBlock Margin="10,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Text="I.C.S.D." Height="95" RenderTransformOrigin="0.504,0.499" HorizontalAlignment="Left" Width="446" Foreground="White"/>
+            <TextBlock  Style="{StaticResource PhoneTextTitle1Style}" Text="I.C.S.D."  Height="95" RenderTransformOrigin="0.504,0.499" HorizontalAlignment="Left" Width="446" Foreground="White" Tap="TextBlock_Tap"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.577,0.147" Click="Button_Click" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
-            <HyperlinkButton x:Name="Hyperlink" Content="Search" HorizontalAlignment="Left" Margin="361,103,0,0" VerticalAlignment="Top" Click="Button_Click2" Foreground="White" FontWeight="Bold"/>
-            <HyperlinkButton Content="Αρχική σελίδα" HorizontalAlignment="Left" Margin="280,35,0,0" VerticalAlignment="Top" Width="176" Click="Main_page_mpes" Height="34" Foreground="White" FontWeight="Bold"/>
-            <Button x:Name="ECLASS" Content="e-Class" HorizontalAlignment="Left" Margin="0,134,0,0" VerticalAlignment="Top" Click="eClass" Width="456" Height="79" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
-            <Button x:Name="EMAIL" Content="e-Mail" HorizontalAlignment="Left" Margin="0,213,0,0" VerticalAlignment="Top" Width="456" Height="79" Click="mail" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
-            <Button x:Name="ICARUS" Content="Icarus" HorizontalAlignment="Left" Margin="0,292,0,0" VerticalAlignment="Top" Width="456" Height="79" Click="Icarus" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
-            <Button x:Name="EUDOXUS" Content="Eudoxus" HorizontalAlignment="Left" Margin="0,371,0,0" VerticalAlignment="Top" Width="456" Height="79" Click="EUDOXUS_Click" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
-            <Button x:Name="Academic_Calendar" Content="Academic Calendar" HorizontalAlignment="Left" Margin="0,450,0,0" VerticalAlignment="Top" Width="456" Height="79" Click="Academic_Calendar_Click" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
-            <Button x:Name="icsd_MSc" Content="Μεταπτυχιακό" HorizontalAlignment="Left" Margin="0,529,0,0" VerticalAlignment="Top" Width="456" Height="79" Click="icsd_MSc_Click" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
-            <HyperlinkButton x:Name="schedule_icsd" Content="Πρόγραμμα" HorizontalAlignment="Left" Margin="301,69,0,0" VerticalAlignment="Top" Click="schedule_icsd_Click" Height="34" Foreground="White" FontWeight="Bold" Width="155"/>
+        <Grid x:Name="ContentPanel" Grid.Row="1"  HorizontalAlignment="Stretch" VerticalAlignment="Bottom">
+            <StackPanel  Name="stackpanel2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="646" Margin="12,0,10,0" Width="458">
+                <Button Content="Back" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="-2.577,0.147" Click="Button_Click" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
+                <HyperlinkButton x:Name="Hyperlink" Content="Search" HorizontalAlignment="Right"  VerticalAlignment="Top" Click="Button_Click2" Foreground="White" FontWeight="Bold"/>
+                <HyperlinkButton x:Name="schedule_icsd" Content="Πρόγραμμα" HorizontalAlignment="Right"  Click="schedule_icsd_Click" Height="34" Foreground="White" FontWeight="Bold" />
+                <Button x:Name="ECLASS" Content="e-Class" HorizontalAlignment="Stretch" Click="eClass" Width="456" Height="79" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
+                <Button x:Name="EMAIL" Content="e-Mail" HorizontalAlignment="Stretch"  Width="456" Height="79" Click="mail" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
+                <Button x:Name="ICARUS" Content="Icarus" HorizontalAlignment="Stretch"  Width="456" Height="79" Click="Icarus" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
+                <Button x:Name="EUDOXUS" Content="Eudoxus" HorizontalAlignment="Stretch" Width="456" Height="79" Click="EUDOXUS_Click" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
+                <Button x:Name="Academic_Calendar" Content="Academic Calendar" HorizontalAlignment="Stretch"  Width="456" Height="79" Click="Academic_Calendar_Click" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
+                <Button x:Name="icsd_MSc" Content="Μεταπτυχιακό" HorizontalAlignment="Stretch" Width="456" Height="79" Click="icsd_MSc_Click" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
+
+            </StackPanel>
             <!--<HyperlinkButton NavigateUri="http://www.bing.com">Search the web</HyperlinkButton>-->
         </Grid>
     </Grid>
