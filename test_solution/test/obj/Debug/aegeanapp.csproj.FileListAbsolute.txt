@@ -233,7 +233,6 @@ C:\Users\George\Documents\Visual Studio 2013\Projects\test_solution\test\Bin\Deb
 C:\Users\George\Documents\Visual Studio 2013\Projects\test_solution\test\Bin\Debug\aegeanapp.build.appxrecipe
 C:\Users\George\Documents\Visual Studio 2013\Projects\test_solution\test\Bin\Debug\Properties\WMAppManifest.xml
 C:\Users\George\Documents\Visual Studio 2013\Projects\test_solution\test\Bin\Debug\AppManifest.xaml
-C:\Users\George\Documents\Visual Studio 2013\Projects\test_solution\test\Bin\Debug\aegeanapp_Release_AnyCPU.xap
 C:\Users\George\Documents\Visual Studio 2013\Projects\test_solution\test\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
 C:\Users\George\Documents\Visual Studio 2013\Projects\test_solution\test\Bin\Debug\Microsoft.Phone.Toolkit.Testing.dll
 C:\Users\George\Documents\Visual Studio 2013\Projects\test_solution\test\Bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTesting.Phone.dll
@@ -434,3 +433,6 @@ C:\Users\George\Documents\Visual Studio 2015\Projects\test_solution\test\obj\Deb
 C:\Users\George\Documents\Visual Studio 2015\Projects\test_solution\test\obj\Debug\ProjectArchitectures.txt
 C:\Users\George\Documents\Visual Studio 2015\Projects\test_solution\test\obj\Debug\MDILProjectFiles.xml
 C:\Users\George\Documents\Visual Studio 2015\Projects\test_solution\test\obj\Debug\XapCacheFile.xml
+C:\Users\George\Documents\Visual Studio 2013\Projects\test_solution\test\Bin\Debug\aegeanapp1.2_Release_AnyCPU.xap
+C:\Users\George\Documents\Visual Studio 2013\Projects\test_solution\test\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\George\Documents\Visual Studio 2013\Projects\test_solution\test\obj\Debug\WebView_Page.g.cs

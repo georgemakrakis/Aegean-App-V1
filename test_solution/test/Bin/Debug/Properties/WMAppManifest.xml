@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
   <DefaultLanguage xmlns="" code="el-GR" />
-  <App xmlns="" ProductID="{1cd0f0c1-87c1-4804-8a63-42331a2d4574}" Title="Aegean App" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Aegean App Team" Description="University of The Aegean App" Publisher="Aegean App Team" PublisherID="{743aabf1-e0e6-4f61-8155-44fccec89192}">
+  <App xmlns="" ProductID="{1cd0f0c1-87c1-4804-8a63-42331a2d4574}" Title="Aegean App" RuntimeType="Silverlight" Version="1.2.0.0" Genre="apps.normal" Author="Aegean App Team" Description="University of The Aegean App" Publisher="Aegean App Team" PublisherID="{743aabf1-e0e6-4f61-8155-44fccec89192}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

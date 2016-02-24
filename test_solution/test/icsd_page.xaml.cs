@@ -42,22 +42,34 @@ namespace aegeanapp
 
         private void eClass(object sender, RoutedEventArgs e)
         {
-            ShowInBrowser("https://eclass.icsd.aegean.gr/");
+            //ShowInBrowser("https://eclass.icsd.aegean.gr/");
+
+            URLs.url = "https://eclass.icsd.aegean.gr/";
+            NavigationService.Navigate(new Uri("/WebView_Page.xaml", UriKind.Relative));
         }
 
         private void mail(object sender, RoutedEventArgs e)
         {
-            ShowInBrowser("https://webmail.aegean.gr/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.aegean.gr%2fowa");
+            //ShowInBrowser("https://webmail.aegean.gr/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.aegean.gr%2fowa");
+
+            URLs.url = "https://webmail.aegean.gr/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.aegean.gr%2fowa";
+            NavigationService.Navigate(new Uri("/WebView_Page.xaml", UriKind.Relative));
         }
 
         private void Icarus(object sender, RoutedEventArgs e)
         {
-            ShowInBrowser("https://icarus-icsd.aegean.gr/");
+            //ShowInBrowser("https://icarus-icsd.aegean.gr/");
+
+            URLs.url = "https://icarus-icsd.aegean.gr/";
+            NavigationService.Navigate(new Uri("/WebView_Page.xaml", UriKind.Relative));
         }
 
         private void EUDOXUS_Click(object sender, RoutedEventArgs e)
         {
-            ShowInBrowser("http://eudoxus.gr/");
+            //ShowInBrowser("http://eudoxus.gr/");
+
+            URLs.url = "http://eudoxus.gr/";
+            NavigationService.Navigate(new Uri("/WebView_Page.xaml", UriKind.Relative));
         }
 
         private void Academic_Calendar_Click(object sender, RoutedEventArgs e)
@@ -67,7 +79,10 @@ namespace aegeanapp
 
         private void icsd_MSc_Click(object sender, RoutedEventArgs e)
         {
-            ShowInBrowser("http://msc.icsd.aegean.gr/");
+            //ShowInBrowser("http://msc.icsd.aegean.gr/");
+
+            URLs.url = "http://msc.icsd.aegean.gr";
+            NavigationService.Navigate(new Uri("/WebView_Page.xaml", UriKind.Relative));
         }
 
         private void schedule_icsd_Click(object sender, RoutedEventArgs e)
@@ -77,7 +92,10 @@ namespace aegeanapp
 
         private void TextBlock_Tap(object sender, System.Windows.Input.GestureEventArgs e) // main page mpes
         {
-            ShowInBrowser("https://www.icsd.aegean.gr/");
+            //ShowInBrowser("https://www.icsd.aegean.gr/");
+
+            URLs.url = "http://www.icsd.aegean.gr";
+            NavigationService.Navigate(new Uri("/WebView_Page.xaml", UriKind.Relative));
         }
     }
 

@@ -27,89 +27,89 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.RowSpan="2">
-            <ScrollViewer HorizontalAlignment="Left" Height="800" VerticalAlignment="Top" Width="480">
-                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="1200" Width="480" Foreground="White">
-            		<Run FontWeight="Bold" Text="Δευτέρα"/>
-            		<LineBreak/>
-            		<Run Text="1ο.Χορτόσουπα βελουτέ"/>
-            		<LineBreak/>
-            		<Run Text="2ο.Σπανακόρυζο"/>
-            		<LineBreak/>
-            		<Run Text="3ο.Σαλάτα εποχής"/>
-            		<LineBreak/>
-            		<Run Text="4ο.Φρούτο εποχής - Κέϊκ"/>
-            		<LineBreak/>
-            		<Run/>
-            		<LineBreak/>
-                    <Run FontWeight="Bold" Text="Τρίτη"/>
-            		<LineBreak/>
-            		<Run Text="1ο.Μινεστρόνε"/>
-            		<LineBreak/>
-            		<Run Text="2ο.Φιλέτο Γαλέου Κρασάτο"/>
-            		<LineBreak/>
-            		<Run Text="3ο.Σαλάτα εποχής"/>
-            		<LineBreak/>
-            		<Run Text="4ο.Φρούτο εποχής - Ρυζόγαλο"/>
-            		<LineBreak/>
-                    <Run/>
-                    <LineBreak/>
-            		<Run FontWeight="Bold" Text="Τετάρτη"/>
-            		<LineBreak/>
-            		<Run Text="1ο.Κοτόσουπα"/>
-            		<LineBreak/>
-            		<Run Text="2ο.Σπαγγέτι Αμαρτισάνα"/>
-            		<LineBreak/>
-            		<Run Text="3ο.Σαλάτα εποχής"/>
-            		<LineBreak/>
-            		<Run Text="4ο.Φρούτο εποχής - Κομπόστα"/>
-            		<LineBreak/>
-            		<Run/>
-            		<LineBreak/>
-            		<Run FontWeight="Bold" Text="Πέμπτη"/>
-            		<LineBreak/>
-            		<Run Text="1ο.Τυρόπιτα με ζαμπόν"/>
-            		<LineBreak/>
-            		<Run Text="2ο.Πιτσα σπέσιαλ"/>
-            		<LineBreak/>
-            		<Run Text="3ο.Σαλάτα εποχής"/>
-            		<LineBreak/>
-            		<Run Text="4ο.Φρούτο εποχής - Μους βανίλια"/>
-            		<LineBreak/>
-            		<Run/>
-            		<LineBreak/>
-            		<Run FontWeight="Bold" Text="Παρασκευή"/>
-            		<LineBreak/>
-            		<Run Text="1ο.Φιογκάκι"/>
-            		<LineBreak/>
-            		<Run Text="2ο.Αρακάς μαγειρευτός"/>
-            		<LineBreak/>
-            		<Run Text="3ο.Σαλάτα εποχής"/>
-            		<LineBreak/>
-            		<Run Text="4ο.Φρούτο εποχής - Μους βανίλια"/>
-            		<LineBreak/>
-            		<Run/>
-            		<LineBreak/>
-            		<Run FontWeight="Bold" Text="Σάββατο"/>
-            		<LineBreak/>
-            		<Run Text="1ο.Πίτσα με λαχανικά"/>
-            		<LineBreak/>
-            		<Run Text="2ο.Καλαμαράκια κρασάτα"/>
-            		<LineBreak/>
-            		<Run Text="3ο.Σαλάτα εποχής"/>
-            		<LineBreak/>
-            		<Run Text="4ο.Φρούτο εποχής - Ζελέ"/>
-            		<LineBreak/>
-            		<Run/>
-            		<LineBreak/>
-            		<Run FontWeight="Bold" Text="Κυριακή"/>
-            		<LineBreak/>
-            		<Run Text="1ο.Σούπα αλενουά"/>
-            		<LineBreak/>
-            		<Run Text="2ο.Μπιγτέκι σχάρας"/>
-            		<LineBreak/>
-            		<Run Text="3ο.Σαλάτα εποχής"/>
-            		<LineBreak/>
-            		<Run Text="4ο.Φρούτο εποχής - Γλυκό φόρμας"/>
+            <ScrollViewer HorizontalAlignment="Left" Height="770" VerticalAlignment="Top" Width="480">
+                <TextBlock TextWrapping="Wrap">
+    		<Run FontWeight="Bold" Text="Δευτέρα"/>
+    		<LineBreak/>
+    		<Run Text="1ο.Κρεμμυδόσουπα - Κρέπες ( γέμιση με ζαμπόν και μανιτάρια)"/>    
+    		<LineBreak/>
+    		<Run Text="2ο.Σπαγγέτι με σάλτσα ντομάτας, τυρί τριμμένο, τυρί φέτα - Πατάτες γιαχνί, τυρί φέτα"/>
+    		<LineBreak/>
+    		<Run Text="3ο.Σαλάτα εποχής ωμή - Σαλάτα εποχής βραστή"/>
+    		<LineBreak/>
+    		<Run Text="4ο.Γλυκό - Φρούτο εποχής"/>
+    		<LineBreak/>
+    		<Run/>
+    		<LineBreak/>
+    		<Run FontWeight="Bold" Text="Τρίτη"/>
+    		<LineBreak/>
+    		<Run Text="1ο.Σούπα κρέμα σπανάκι - Σουφλέ λαζάνια"/>
+    		<LineBreak/>
+    		<Run Text="2ο.Ψάρι φούρνου με πατατοσαλάτα - Κιμαδόπιτα, πατατοσαλάτα"/>
+    		<LineBreak/>
+    		<Run Text="3ο.Σαλάτα εποχής ωμή - Σαλάτα εποχής βραστή"/>
+    		<LineBreak/>
+    		<Run Text="4ο.Γλυκό - Φρούτο εποχής"/>
+    		<LineBreak/>
+    		<Run/>
+    		<LineBreak/>
+    		<Run FontWeight="Bold" Text="Τετάρτη"/>
+    		<LineBreak/>
+    		<Run Text="1ο.Ψαρόσουπα - Σουφλέ πατάτας"/>
+    		<LineBreak/>
+    		<Run Text="2ο.Ογκρατέν (Μακαρόνια), τυρί φέτα - Μελιτζάνες ιμάμι, τυρί φέτα"/>
+    		<LineBreak/>
+    		<Run Text="3ο.Σαλάτα εποχής ωμή - Σαλάτα εποχής βραστή"/>
+    		<LineBreak/>
+    		<Run Text="4ο.Γλυκό - Φρούτο εποχής"/>
+    		<LineBreak/>
+    		<Run/>
+    		<LineBreak/>
+    		<Run FontWeight="Bold" Text="Πέμπτη"/>
+    		<LineBreak/>
+    		<Run Text="1ο.Σούπα με μακαρονάκι και φασόλια - Τορτίγιες με πατάτες και φρέσκο κρεμμύδι"/>
+    		<LineBreak/>
+    		<Run Text="2ο.Σουτζουκάκια με γαρνιτούρα ζυμαρικά με σάλτσα ντομάτας - Χυλοπίτες Πηλιορίτικες, τυρί φέτα"/>
+    		<LineBreak/>
+    		<Run Text="3ο.Σαλάτα εποχής ωμή - Σαλάτα εποχής βραστή"/>
+    		<LineBreak/>
+    		<Run Text="4ο.Γλυκό - Φρούτο εποχής"/>
+    		<LineBreak/>
+    		<Run/>
+    		<LineBreak/>
+    		<Run FontWeight="Bold" Text="Παρασκευή"/>
+    		<LineBreak/>
+    		<Run Text="1ο.Σούπα μπεαρναίζ - Κρέπες (γέμιση ροκφόρ)"/>
+    		<LineBreak/>
+    		<Run Text="2ο.Ομελέτα με πατάτες, τυρί φέτα - Τυρόπιτα, κοφτό μακαρονάκι"/>
+    		<LineBreak/>
+    		<Run Text="3ο.Σαλάτα εποχής ωμή - Σαλάτα εποχής βραστή"/>
+    		<LineBreak/>
+    		<Run Text="4ο.Γλυκό - Φρούτο εποχής"/>
+    		<LineBreak/>
+    		<Run/>
+    		<LineBreak/>
+    		<Run FontWeight="Bold" Text="Σάββατο "/>
+    		<LineBreak/>
+    		<Run Text="1ο.Σούπα Σαβουαγιάρντ - Μελιτζανόπιτα"/>
+    		<LineBreak/>
+    		<Run Text="2ο.Θράψαλα τηγανιτά με πιλάφι - Μπιφτέκι σχάρας με πιλάφι"/>
+    		<LineBreak/>
+    		<Run Text="3ο.Σαλάτα εποχής ωμή - Σαλάτα εποχής βραστή"/>
+    		<LineBreak/>
+    		<Run Text="4ο.Γλυκό - Φρούτο εποχής"/>
+    		<LineBreak/>
+    		<Run/>
+    		<LineBreak/>
+    		<Run FontWeight="Bold" Text="Κυριακή"/>
+    		<LineBreak/>
+    		<Run Text="1ο.Σούπα μπιστού - Παραδοσιακή μλήνα Σερρών"/>
+    		<LineBreak/>
+    		<Run Text="2ο.Γαλοπούλα στήθος φέτα, πιλάφι, πιλάφι, τυρί φέτα - Πίτσα σπέσιαλ"/>
+    		<LineBreak/>
+    		<Run Text="3ο.Σαλάτα εποχής ωμή - Σαλάτα εποχής βραστή"/>
+    		<LineBreak/>
+    		<Run Text="4ο.Γλυκό - Φρούτο εποχής"/>
                 </TextBlock>
             </ScrollViewer>
 

@@ -162,6 +162,10 @@
     <Compile Include="Sitisi_MainPage.xaml.cs">
       <DependentUpon>Sitisi_MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="URLs.cs" />
+    <Compile Include="WebView_Page.xaml.cs">
+      <DependentUpon>WebView_Page.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -237,6 +241,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Sitisi_MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WebView_Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

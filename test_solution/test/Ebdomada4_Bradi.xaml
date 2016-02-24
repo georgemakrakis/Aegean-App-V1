@@ -22,85 +22,84 @@
         <TextBlock TextWrapping="Wrap">
     		<Run FontWeight="Bold" Text="Δευτέρα"/>
     		<LineBreak/>
-    		<Run Text="1ο.Σούπα Ανταλούζ"/>
+    		<Run Text="1ο.Σούπα με κοκκινιστό τραχανά -  Φασόλια σαλάτα με τόνο"/>
     		<LineBreak/>
-    		<Run Text="2ο.Αρακάς μαγειρευτός"/>
+    		<Run Text="2ο.Ρεγκατόνι με σάλτσα τόνου - Σπανακόρυζο, τυρί φέτα"/>
     		<LineBreak/>
     		<Run Text="3ο.Σαλάτα εποχής"/>
     		<LineBreak/>
-    		<Run Text="4ο.Φρούτο εποχήσ - Κέικ μήλου"/>
+    		<Run Text="4ο.Φρούτο εποχής - Γλυκό"/>
     		<LineBreak/>
     		<Run/>
     		<LineBreak/>
     		<Run FontWeight="Bold" Text="Τρίτη"/>
     		<LineBreak/>
-    		<Run Text="1ο.Σούπα κάρδαμο"/>
+    		<Run Text="1ο.Σούπα με σπανάκι - Τυροσαλάτα"/>
     		<LineBreak/>
-    		<Run Text="2ο.Μπακαλιάρος πλακί"/>
+    		<Run Text="2ο.Γιουβαρλάκια αυγολέμονο - Παλαμίδα αυγολέμονο με κους κους"/>
     		<LineBreak/>
     		<Run Text="3ο.Σαλάτα εποχής"/>
     		<LineBreak/>
-    		<Run Text="4ο.Φρούτο εποχής - Μους σοκολάτας"/>
+    		<Run Text="4ο.Φρούτο εποχής - Γλυκό"/>
     		<LineBreak/>
     		<Run/>
     		<LineBreak/>
     		<Run FontWeight="Bold" Text="Τετάρτη"/>
     		<LineBreak/>
-    		<Run Text="1ο.Σούπα κρέμα μπόκολο"/>
+    		<Run Text="1ο.Σούπα βελουτέ πατάτας - Πατατοσαλάτα με ελιές"/>
     		<LineBreak/>
-    		<Run Text="2ο.Φιογκάκι αλά κρέμ"/>
+    		<Run Text="2ο.Λαχανόρυζο με κόκκινι σάλτσα, τυρί φέτα - Πενάκι με μυζήθρα και σαγκινάρες, τυρί φέτα"/>
     		<LineBreak/>
     		<Run Text="3ο.Σαλάτα εποχής"/>
     		<LineBreak/>
-    		<Run Text="4ο.Φρούτο εποχής - Κρέμα βανίλια"/>
+    		<Run Text="4ο.Φρούτο εποχής - Γλυκό"/>
     		<LineBreak/>
     		<Run/>
     		<LineBreak/>
     		<Run FontWeight="Bold" Text="Πέμπτη"/>
     		<LineBreak/>
-    		<Run Text="1ο.Σούπα παρμάντε"/>
+    		<Run Text="1ο.Καροτόσουπα βελουτέ - Τορτίγιες με πατάτες και φρέσκο κρεμμύδι"/>
     		<LineBreak/>
-    		<Run Text="2ο.Παπουτσάκια με κιμά"/>
+    		<Run Text="2ο.Μπιτόκ αλα Ονγκουάζ πατάτες γιαχνί - Ταλιατέλες με σάλτσα πέστο, τυρί φέτα"/>
     		<LineBreak/>
     		<Run Text="3ο.Σαλάτα εποχής"/>
     		<LineBreak/>
-    		<Run Text="4ο.Φρούτο εποχής - Γλυκό ταψιού"/>
+    		<Run Text="4ο.Φρούτο εποχής - Γλυκό"/>
     		<LineBreak/>
     		<Run/>
     		<LineBreak/>
     		<Run FontWeight="Bold" Text="Παρασκευή"/>
     		<LineBreak/>
-    		<Run Text="1ο.Σπανακόπιτα"/>
+    		<Run Text="1ο.Αρακόσουπα με πράσσα - Μελιτζάνες φούρνου με τυρί"/>
     		<LineBreak/>
-    		<Run Text="2ο.Ομελέτα με πατάτες"/>
+    		<Run Text="2ο.Τυρόπιτα στο τηγάνι πατατοσαλάτα - Ομελέτα φλαμπέ πατάτες φουρνου ριγανάτες, τυρί φέτα"/>
     		<LineBreak/>
     		<Run Text="3ο.Σαλάτα εποχής"/>
     		<LineBreak/>
-    		<Run Text="4ο.Φρούτο εποχής - Ραβανί"/>
+    		<Run Text="4ο.Φρούτο εποχής - Γλυκό"/>
     		<LineBreak/>
     		<Run/>
     		<LineBreak/>
     		<Run FontWeight="Bold" Text="Σάββατο "/>
     		<LineBreak/>
-    		<Run Text="1ο.Χορτόπιτα"/>
+    		<Run Text="1ο.Κοτόσουπα αυγολέμονο - Εντσιλάδες με λουκάνικο"/>
     		<LineBreak/>
-    		<Run Text="2ο.Ψάρι κρασάτο"/>
+    		<Run Text="2ο.Παποθτσάκια με μελιτζάνες και κιμά, τυρί φέτα - Ψάρι φιλέτο σεϊθ λεμονάτο"/>
     		<LineBreak/>
     		<Run Text="3ο.Σαλάτα εποχής"/>
     		<LineBreak/>
-    		<Run Text="4ο.Φρούτο εποχής - Κέικ"/>
+    		<Run Text="4ο.Φρούτο εποχής - Γλυκό"/>
     		<LineBreak/>
-    		<Run/>
     		<LineBreak/>
     		<Run FontWeight="Bold" Text="Κυριακή"/>
     		<LineBreak/>
-    		<Run Text="1ο.Κοχυλάκι"/>
+    		<Run Text="1ο.Σούπα γαλοπύλας με λαχανικά - Σουφλέ τυριού με μπεσαμέλ"/>
     		<LineBreak/>
-    		<Run Text="2ο.Πίτσα σπανιόλ"/>
+    		<Run Text="2ο.Σπανακόπιτα, κριθαράκι φούρνου  - Κοτόπουλο μπελ ωρόρ με πιλάφι,τυρί φέτα"/>
     		<LineBreak/>
     		<Run Text="3ο.Σαλάτα εποχής"/>
     		<LineBreak/>
-    		<Run Text="4ο.Φρούτο εποχής - Γλυκό φόρμας"/>
+    		<Run Text="4ο.Φρούτο εποχής - Γλυκό"/>
         </TextBlock>
     </ScrollViewer>
 

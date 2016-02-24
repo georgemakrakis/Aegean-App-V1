@@ -24,48 +24,48 @@ namespace aegeanapp
 
             Listpickername2.Items.Add("Μεσημεριανό");
             Listpickername2.Items.Add("Βραδινό");
-            get_Week();
+            //get_Week();
         }
 
 
 
-        public void get_Week()
-        {
-            DateTime StartDate = new DateTime(2015, 11, 23);
-            DateTime EndDate = DateTime.Today;
-            double d_counter = (EndDate - StartDate).TotalDays;
+        //public void get_Week()
+        //{
+        //    DateTime StartDate = new DateTime(2015, 11, 23);
+        //    DateTime EndDate = DateTime.Today;
+        //    double d_counter = (EndDate - StartDate).TotalDays;
 
-            d_counter = d_counter / 7;
-            if (d_counter >= 4)
-            {
-                d_counter = 0;
-            }
+        //    d_counter = d_counter / 7;
+        //    if (d_counter >= 4)
+        //    {
+        //        d_counter = 0;
+        //    }
 
-            if (d_counter <= 1)
-            {
-                weekTbx.Text = "1η Εβδομάδα";
+        //    if (d_counter <= 1)
+        //    {
+        //        weekTbx.Text = "1η Εβδομάδα";
 
-            }
-            else if (d_counter <= 2)
-            {
-                weekTbx.Text = "2η Εβδομάδα";
+        //    }
+        //    else if (d_counter <= 2)
+        //    {
+        //        weekTbx.Text = "2η Εβδομάδα";
 
-            }
-            else if (d_counter <= 3)
-            {
-                weekTbx.Text = "3η Εβδομάδα";
+        //    }
+        //    else if (d_counter <= 3)
+        //    {
+        //        weekTbx.Text = "3η Εβδομάδα";
 
-            }
-            else if (d_counter <= 4)
-            {
-                weekTbx.Text = "4η Εβδομάδα";
-            }
-            else
-            {
-                weekTbx.Text = "No Εβδομάδα";
-            }
+        //    }
+        //    else if (d_counter <= 4)
+        //    {
+        //        weekTbx.Text = "4η Εβδομάδα";
+        //    }
+        //    else
+        //    {
+        //        weekTbx.Text = "No Εβδομάδα";
+        //    }
 
-        }
+        //}
 
         private void OK_Button_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
